@@ -5,12 +5,13 @@
   var postGame = document.querySelector("post-game-screen");
   var userScore = document.querySelector("user-score");
   var playAgain = document.querySelector("play-again-btn");
-  
+
+var questions
  var timerId 
 
  function startbtnhandler (){
    clearInterval(timerId);
- }
+ };
 
 
 
@@ -25,13 +26,17 @@
 
 // create function to start game
 startButton.addEventListener("click") {
-  secondsLeft
+  secondsLeft = 
 }
   // set secondsLeft variable starting time (300 seconds = 5 minutes)
   // write secondsLeft to the page
 
   // reset score to 0
  
+  function startGame() {
+    startScreen.classList.remove("hide");
+    postGame.classList.remove("hide");
+    quizContent.classList.add("hide");
 
   // hide start-screen element && post-game-screen
   // show quiz-content element
